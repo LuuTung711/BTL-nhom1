@@ -9,7 +9,7 @@
 <?php 
         echo "Hello World!" . "<br>";
     //2. bien
-    $ten = "Le Hoang Viet" . "<br>";
+    $ten = "Le Hoang Viet dep trai" . "<br>";
     echo$ ten; 
 
     //3. Hang
