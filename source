@@ -1,1 +1,42 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BTLnhom1.css">
+    <title>BTL web</title>
+</head>
+<body>
+    <div class="header"> <!-- header -->     
+        <div class="left-main">
+            <!-- logo -->
+            <div onclick="logo_click()" class="logo"> 
+                <img class="logo1" src="img/logoweb ver 2.png" alt="">
+                <img class="logo2" src="img/textlg.png" alt="">
+            </div>
+        </div>       
+         <div class="right-main">         
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li onclick="home()"><a href="#">TRANG CHỦ</a></li>
+                    <li><a href="#">VIDEO</a></li>
+                    <li><a href="#">SIÊU ƯU ĐÃI</a></li>
+                    <li><a href="#">ĐỊA ĐIỂM</a></li>
+                    <li><a href="#">TEAM</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+    </div>
+   <script> 
+//    treo
+    function logo_click(){
+        document.getElementsByClassName('navbar')[0].style = "background: grey"
+    }
+    function home(){
+        
+    }
+   </script>
+</body>
+</html>
