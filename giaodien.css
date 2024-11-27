@@ -1,3 +1,4 @@
+/* trang chu */
 body{
     background-color: rgb(0, 0, 0);
 }
@@ -32,7 +33,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: #000;
+    
 }
 
 .nav-links {
@@ -47,13 +48,43 @@ body{
 .nav-links a {
     text-decoration: none;
     color: #fff;
-    font-weight: bold;
-    transition: color 0.3s ease;
+    font-weight: bold; 
+    transition: color 0.5s ease;  /* dùng để tạo hiệu ứng khi trỏ chuột */
 }
 
 .nav-links a:hover {
     color: #f31212;
 }
+/* từ line 1 -> 57 dùng cho tất cả các tính năng */
+/* LƯU Ý: Đặt tên class tránh trùng với nhau(thêm tên riêng trước các class theo từng tính năng VD: class = "video_main"; class = "sale_img") */
+
+/* trang chủ */
 
 
 
+
+/* video */
+.video span{
+    color: white;
+}
+.video{
+    margin-bottom: 50px;
+}
+
+
+/* sp_sale */
+
+
+
+
+/* địa điểm */
+
+
+
+
+/* team */
+
+
+
+
+/* contact */
