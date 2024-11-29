@@ -5,27 +5,25 @@ body{
 .header{
     display: flex;
 }
-.logo{
-    transform: translate(35px);
+.logo img{
+    width: 80%;
+    transform: translate(5%,5%);
 }
-.logo1{
-    width: 130px;
-}
-.logo2{
-    width: 280px;
-    transform: translate(-23px,-13px);
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+.left-main{
+    width: 40%;
+    height: 130px;
+}
 .right-main {
     font-family: Arial, sans-serif;
-    color: #fff;
-    transform: translate(280px,36px);    
+    color: #fff;   
+    /* background-color: rgb(169, 100, 10); */
+    height: 130px;
+    width: 60%;
 }
 
 .navbar {
@@ -33,7 +31,8 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    
+    font-size: 90%;
+    transform: translate(0,67%);
 }
 
 .nav-links {
@@ -88,7 +87,3 @@ body{
 
 
 /* contact */
-
-
-
-
